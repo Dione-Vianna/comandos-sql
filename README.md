@@ -31,3 +31,9 @@ DELETE FROM VENDAS
 ```
 DELETE FROM nome-da-tabela WHERE campo-da-tabela
 ```
+
+- Procurar por um campo vazio
+
+```
+SELECT campo-da-tabela FROM nome-da-tabela where campo-da-tabela is null
+```
