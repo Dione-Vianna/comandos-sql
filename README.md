@@ -23,7 +23,7 @@ SELECT * FROM nome-da-tabela WHERE nome-do-campo = 'item-a-pesquisar'
 - Deletar todos os itens em uma tabela
 
 ```
-DELETE FROM VENDAS
+DELETE FROM nome-da-tabela
 ```
 
 - Deletar um item
