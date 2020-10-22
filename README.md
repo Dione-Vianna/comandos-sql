@@ -37,3 +37,12 @@ DELETE FROM nome-da-tabela WHERE campo-da-tabela
 ```
 SELECT campo-da-tabela FROM nome-da-tabela where campo-da-tabela is null
 ```
+
+- Inserir dados em uma tabela
+
+```
+UPDATE Nome-tabela 
+SET Nome-tabela.coluna = 20
+WHERE Nome-tabela.Id-coluna = 12584
+```
+
